@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 public class StaffManagement<T extends Staff> {
     List<T> staffs;
-    final String PATH_FILE = "C:\\Users\\thait\\OneDrive\\Desktop\\Case_Module_2\\src\\Staff.dat";
+    final String PATH_FILE = "C:\\Users\\thait\\OneDrive\\Desktop\\Case_Module_2\\case_stady\\src\\Staff.dat";
 
     public void addStaff(T t) {
         staffs = (List<T>) ReadWrite.readFromFile(PATH_FILE);

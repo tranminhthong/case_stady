@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class LoginAndRegister {
-    private static final String PATH = "C:\\Users\\thait\\OneDrive\\Desktop\\Case_Module_2\\src\\UserLogin.dat";
+    private static final String PATH = "C:\\Users\\thait\\OneDrive\\Desktop\\Case_Module_2\\case_stady\\src\\UserLogin.dat";
     static List<User> users = (List<User>) ReadWrite.readFromFile(PATH);
 
     public static void login(String userName, String password) throws Exception {

@@ -7,7 +7,7 @@ import Entities.products.Product;
 import java.util.ArrayList;
 
 public class ProductManagement<T extends Product> {
-    private static final String PATH_FILE = "C:\\Users\\thait\\OneDrive\\Desktop\\Case_Module_2\\src\\Product.dat";
+    private static final String PATH_FILE = "C:\\Users\\thait\\OneDrive\\Desktop\\Case_Module_2\\case_stady\\src\\Product.dat";
     ArrayList<T> products = (ArrayList<T>) ReadWrite.readFromFile(PATH_FILE);
     public void addProduct(T t) {
         products.add(t);
